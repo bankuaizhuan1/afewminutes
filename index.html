@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>玄易通 - 专业运势分析平台</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap">
+    <style>
+        body {
+            font-family: 'Noto Sans SC', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-white">
+    <!-- 导航栏 -->
+    <header class="fixed w-full bg-white/80 backdrop-blur-md z-50">
+        <nav class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div class="text-2xl font-bold text-gray-800">玄易通</div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#features" class="text-gray-600 hover:text-gray-900">功能特点</a>
+                    <a href="#how-it-works" class="text-gray-600 hover:text-gray-900">使用方法</a>
+                    <a href="#pricing" class="text-gray-600 hover:text-gray-900">会员价格</a>
+                    <a href="#faq" class="text-gray-600 hover:text-gray-900">常见问题</a>
+                </div>
+                <button class="bg-indigo-600 text-white px-6 py-2 rounded-full hover:bg-indigo-700">立即体验</button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero区域 -->
+    <section class="pt-32 pb-20 bg-gradient-to-b from-indigo-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center">
+                <h1 class="text-5xl font-bold text-gray-900 mb-6">探索你的命运密码</h1>
+                <p class="text-xl text-gray-600 mb-12">结合东方玄学与西方占星，为您提供专业的运势分析</p>
+                
+                <!-- 运势计算表单 -->
+                <div class="max-w-md mx-auto bg-white p-8 rounded-2xl shadow-lg">
+                    <form id="fortuneForm" class="space-y-6">
+                        <div>
+                            <input type="text" placeholder="您的姓名" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                        </div>
+                        <div>
+                            <input type="date" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                        </div>
+                        <button type="submit" class="w-full bg-indigo-600 text-white py-3 rounded-lg hover:bg-indigo-700">
+                            开始分析
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 特色功能 -->
+    <section id="features" class="py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12">专业解析系统</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="text-center p-6">
+                    <div class="text-indigo-600 text-4xl mb-4">☯</div>
+                    <h3 class="text-xl font-semibold mb-4">紫微斗数</h3>
+                    <p class="text-gray-600">结合古老的紫微斗数理论，精准分析您的人生格局</p>
+                </div>
+                <div class="text-center p-6">
+                    <div class="text-indigo-600 text-4xl mb-4">⭐</div>
+                    <h3 class="text-xl font-semibold mb-4">西方星座</h3>
+                    <p class="text-gray-600">融合西方占星学理论，全方位解读星座能量</p>
+                </div>
+                <div class="text-center p-6">
+                    <div class="text-indigo-600 text-4xl mb-4">卦</div>
+                    <h3 class="text-xl font-semibold mb-4">易经八卦</h3>
+                    <p class="text-gray-600">基于易经智慧，演算吉凶祸福</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 使用步骤 -->
+    <section id="how-it-works" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12">使用方法</h2>
+            <div class="grid md:grid-cols-4 gap-8">
+                <div class="text-center">
+                    <div class="text-2xl font-bold text-indigo-600 mb-4">1</div>
+                    <h3 class="font-semibold mb-2">输入信息</h3>
+                    <p class="text-gray-600">填写姓名和生日</p>
+                </div>
+                <!-- 其他步骤省略 -->
+            </div>
+        </div>
+    </section>
+
+    <!-- 价格方案 -->
+    <section id="pricing" class="py-20">
+        <!-- 价格内容 -->
+    </section>
+
+    <!-- 用户评价 -->
+    <section id="testimonials" class="py-20 bg-gray-50">
+        <!-- 评价内容 -->
+    </section>
+
+    <!-- 常见问题 -->
+    <section id="faq" class="py-20">
+        <!-- FAQ内容 -->
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">玄易通</h3>
+                    <p class="text-gray-400">专业的运势分析平台</p>
+                </div>
+                <!-- 其他页脚内容 -->
+            </div>
+            <div class="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
+                <p>© 2024 玄易通. 版权所有 白墨</p>
+                <p>联系方式：baimo@qq.com</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 在 </footer> 之前添加模态框 -->
+    <div id="resultModal" class="fixed inset-0 bg-black bg-opacity-50 hidden items-center justify-center z-50">
+        <div class="bg-white rounded-2xl p-8 max-w-lg w-full mx-4">
+            <div class="text-right">
+                <button onclick="closeModal()" class="text-gray-500 hover:text-gray-700">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                    </svg>
+                </button>
+            </div>
+            <div id="fortuneResult" class="space-y-6">
+                <!-- 运势结果将在这里动态显示 -->
+            </div>
+        </div>
+    </div>
+
+    <!-- 修改 script 部分 -->
+    <script>
+        const fortuneRatings = ['大吉', '吉', '中平', '小凶', '凶'];
+        const activities = {
+            宜: [
+                '谈生意', '签合同', '见贵人', '投资理财',
+                '出行旅游', '学习进修', '运动健身', '社交聚会',
+                '装修搬家', '求职面试', '开展新项目', '表白求婚'
+            ],
+            忌: [
+                '争执冲突', '重大决策', '大额支出', '冒险活动',
+                '轻率承诺', '改变现状', '操之过急', '独断专行',
+                '借贷交易', '远行启程', '医疗手术', '过度消费'
+            ]
+        };
+        
+        const reasons = [
+            '太阳与月亮相位和谐，能量场强大',
+            '紫微星宫与命宫形成吉星照耀',
+            '五行相生，气运昌隆',
+            '贵人星入主命宫，贵人相助',
+            '财星与事业宫相会，有利发展',
+            '桃花星动，人缘运势佳',
+            '文昌星照，智慧充盈',
+            '天机星动，预示机遇将至'
+        ];
+
+        function generateFortune() {
+            const rating = fortuneRatings[Math.floor(Math.random() * 3)]; // 偏向好的运势
+            const score = Math.floor(Math.random() * 21) + 80; // 80-100之间
+            
+            // 随机选择2-3个宜做的事
+            const goodActivities = shuffleArray(activities.宜).slice(0, Math.floor(Math.random() * 2) + 2);
+            // 随机选择2-3个忌做的事
+            const badActivities = shuffleArray(activities.忌).slice(0, Math.floor(Math.random() * 2) + 2);
+            // 随机选择2个理由
+            const selectedReasons = shuffleArray(reasons).slice(0, 2);
+
+            return {
+                rating,
+                score,
+                good: goodActivities,
+                bad: badActivities,
+                reasons: selectedReasons
+            };
+        }
+
+        function shuffleArray(array) {
+            const newArray = [...array];
+            for (let i = newArray.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
+            }
+            return newArray;
+        }
+
+        function showResult(fortune) {
+            const resultHTML = `
+                <div class="text-center">
+                    <div class="text-4xl font-bold text-indigo-600 mb-4">${fortune.rating}</div>
+                    <div class="text-2xl font-bold mb-6">运势评分：${fortune.score}分</div>
+                    
+                    <div class="text-left space-y-4">
+                        <div>
+                            <h3 class="text-xl font-bold text-green-600 mb-2">宜</h3>
+                            <p class="text-gray-700">${fortune.good.join('、')}</p>
+                        </div>
+                        
+                        <div>
+                            <h3 class="text-xl font-bold text-red-600 mb-2">忌</h3>
+                            <p class="text-gray-700">${fortune.bad.join('、')}</p>
+                        </div>
+                        
+                        <div>
+                            <h3 class="text-xl font-bold text-indigo-600 mb-2">运势解析</h3>
+                            <ul class="list-disc list-inside text-gray-700">
+                                ${fortune.reasons.map(reason => `<li>${reason}</li>`).join('')}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            `;
+            
+            document.getElementById('fortuneResult').innerHTML = resultHTML;
+            document.getElementById('resultModal').classList.remove('hidden');
+            document.getElementById('resultModal').classList.add('flex');
+        }
+
+        function closeModal() {
+            document.getElementById('resultModal').classList.add('hidden');
+            document.getElementById('resultModal').classList.remove('flex');
+        }
+
+        document.getElementById('fortuneForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const name = this.querySelector('input[type="text"]').value;
+            const birthdate = this.querySelector('input[type="date"]').value;
+            
+            if (!name || !birthdate) {
+                alert('请填写完整信息');
+                return;
+            }
+            
+            const fortune = generateFortune();
+            showResult(fortune);
+        });
+    </script>
+</body>
+</html> 
